@@ -1,0 +1,21 @@
+{
+    "name": "nyt scraper",
+    "version": "1.0.0",
+    "description": "Web app that scrapes articles from the New York Times and allows users to save articles and write notes",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js"
+    },
+    "author": "Stephanie Collins",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.17.2",
+      "cheerio": "^1.0.0-rc.1",
+      "express": "^4.15.3",
+      "express-handlebars": "^3.0.0",
+      "mongoose": "^4.10.6",
+      "morgan": "^1.7.0",
+      "request": "^2.81.0"
+    }
+  }
